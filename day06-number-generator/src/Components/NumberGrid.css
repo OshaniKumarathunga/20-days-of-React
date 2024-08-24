@@ -1,0 +1,31 @@
+.number_grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 columns */
+    grid-gap: 8px; /* Gap between grid items */
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 20px;
+}
+
+.number_cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 80px; /* Fixed height for each grid item */
+    border-radius: 8px;
+    color: white;
+  }
+
+  .even {
+    background-color: rgb(14, 148, 81);
+  }
+  
+  .odd {
+    background-color: rgb(246, 212, 45);
+  }
+  
+  .prime {
+    background-color: rgb(249, 85, 48);
+  }
