@@ -1,0 +1,18 @@
+.colorBox{
+    padding: 10px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 5px solid #131212;
+    text-align: center;
+    
+}
+.button{
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: bold;
+}
