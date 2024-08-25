@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  align-items: center;
+  background-color: #0e1729;
+  min-height: 170vh;
+  color: white;
+  
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  margin-bottom: 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header h2{
+  padding: 0px;
+  margin: 1px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.button{
+  padding: 10px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  align-self: center;
+}
+.studentForm{
+  margin-left: 350px;
+  margin-right: 350px;
+  align-items: left;
+  justify-content: space-between;
+  text-align: justify;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.formItem{
+  padding: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
