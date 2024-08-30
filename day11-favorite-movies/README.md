@@ -2,7 +2,7 @@
 
 This project is a simple React application designed to practice handling user interactions with forms and state management. It allows users to add, remove, and mark movies as favorites. The application demonstrates the use of various React concepts such as functional components, state management, and event handling.
 
-![App Screenshot](./src/images/Movie_app.png)
+![App Screenshot](./src/images/movie_app.png)
 
 ## Features
 
